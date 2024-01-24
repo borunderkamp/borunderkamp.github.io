@@ -10,6 +10,18 @@ body {
     color: #013b14;
 }
 
+/* Links */
+.link {
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 14pt;
+    color: #000000;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
 /* Header stijlen */
 header {
     justify-content: center;
