@@ -15,7 +15,7 @@ body {
     text-decoration: none;
     font-family: 'poppins';
     font-size: 14pt;
-    color: #000000;
+    color: #013b14;
 }
 
 .link:hover {
@@ -54,7 +54,11 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
 
+.center-container {
+    display: flex;
+    flex-direction: column;
 }
 
 ul li {
@@ -75,19 +79,15 @@ p {
 }
 
 /* Button stijlen */
-button {
+a {
+    text-align: center;
     color: #dac980;
-    background: #00802e;
-    padding: 1.5em 2em;
-    border: 2px #dac980;
-    border-radius: 0.2em;
-    margin-top: 40px;
 }
 
 button:hover {
     background: #72a66a;
     border: 2px solid#dac980;
-    border-radius: 0,2em;
+    border-radius: 0.2em;
 }
 
 /* RRR sectie stijlen */
@@ -116,6 +116,7 @@ button:hover {
     width: 250px;
     height: auto;
     margin-top: -200px;
+    align-self: center;
 }
 
 .button-link {
@@ -143,7 +144,7 @@ button:hover {
 }
 
 /* Footer stijlen */
-.footer {
+footer {
     background-color: #013b14;
     color: #dac980;
     padding: 20px;
@@ -151,7 +152,7 @@ button:hover {
     margin-top: 40px;
 }
 
-.footer p {
+footer p {
     border-top: 1px solid #dac980;
     padding-top: 10px;
 }
@@ -160,8 +161,23 @@ button:hover {
     background: #013b14;
     color: #dac980;
     margin-bottom: 40px;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
 }
 
+.knop{
+    text-align: center;
+    display: block;
+    background: #00802e;
+    padding: 1.5em 2em;
+    border: 2px #dac980;
+    border-radius: 0.2em;
+    margin-top: 40px;
+    width: fit-content;
+    align-self: center;
+}
 
-
+.knop:hover {
+    background: #72a66a;
+}
   
